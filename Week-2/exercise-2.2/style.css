@@ -16,13 +16,13 @@ body {
   flex-wrap: wrap;
 }
 
-.main:hover div:nth-of-type(1),
-.main:hover div:nth-of-type(4) {
+.main:hover .box--top-left,
+.main:hover .box--bottom-right {
   transform: rotate(90deg);
 }
 
-.main:hover div:nth-of-type(2),
-.main:hover div:nth-of-type(3) {
+.main:hover .box--top-right,
+.main:hover .box--bottom-left {
   transform: rotate(-90deg);
 }
 
